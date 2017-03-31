@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="css/main.css">
+	<title>18th Camel</title>
+</head>
+<body>
+	<header>
+		<div class="header">
+			<div id="menu-btn" class="menu-button"></div>
+			<div class="logo">
+				<img class="logo_img" src="img/logo.png" alt="18th Camel">
+			</div>
+			<div class="num">
+				<span class="sm">(044)</span><span class="lg">237 89 90</span>
+			</div>
+		</div>
+		<div id="menu-bl" class="menu-block">
+			<div class="menu">
+				<ul id="menu">
+					<li><a href="#b1">Семинар</a></li>
+					<li><a href="#b3">Польза</a></li>
+					<li><a href="#b4">Особенности</a></li>
+					<li><a href="#b5">Структура</a></li>
+					<li><a href="#b6">Тренер</a></li>
+					<li><a href="#b7">Регистрация</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<div class="main">
+		<div id="b1" class="back-block1">
+			<div class="block1">
+				<div class="seminar">
+					<button class="btn"><a href="#b7">записаться на семинар</a></button>
+				</div>
+				<div class="kick-img"></div>
+			</div>
+		</div>
+		<div id="b2" class="back-block2">
+			<div class="block2">
+				<div class="block2-img"></div>
+				<div class="block2-text"></div>
+			</div>
+		</div>
+		<div id="b3" class="back-block3">
+			<div class="block3">
+				<img src="img/profit.png" alt="profit">
+				<ul>
+					<li>Сможете сдвинуть себя с мертвой точки</li>
+					<li>Начнете делать то, до чего раньше не доходили руки</li>
+					<li>Вы будете эффективней работать, заниматься спортом и даже отдыхать</li>
+					<li>Вам больше не будет страшно ставить перед собой высокие цели</li>
+					<li>Узнаете, что нельзя делать и говорить, если ты - ЛИДЕР</li>
+					<li>Легко объединять людей вокруг своей идеи</li>
+				</ul>
+			</div>
+		</div>
+		<div id="b4" class="back-block4">
+			<div class="block4">
+				<img src="img/features.png" alt="features">
+				<div class="block4-flex-circles">
+					<div class="circle clock"></div>
+					<div class="circle export"></div>
+					<div class="circle users"></div>
+					<div class="circle eye"></div>
+				</div>
+				<div class="block4-flex-text">
+					<div class="features-text"><strong>Динамичность</strong> семинара зашкаливает, 4 часа пролетят на одном дыхании</div>
+					<div class="features-text">Вы будете не только слушать, а еще <strong>говорить, делать, доказывать</strong></div>
+					<div class="features-text">Вам будет под силу самостоятельно <strong>раздать пинки целой команде</strong></div>
+					<div class="features-text">Этот семинар трудно описать словами, <strong>лучше один раз его пережить</strong></div>
+				</div>
+				<div class="btn-2-block">
+					<div class="left-arrow"></div>
+					<button class="btn-2"><a href="#b7">записаться на семинар</a></button>
+					<div class="right-arrow"></div>
+				</div>
+			</div>
+		</div>
+		<div id="b5" class="back-block5">
+			<div class="block5">
+				<img src="img/structure.png" alt="structure">
+				<div class="block5-flex-areas">
+					<div class="area click"></div>
+					<div class="area users-1"></div>
+					<div class="area briefcase"></div>
+					<div class="area rocket"></div>
+				</div>
+				<div class="block5-flex-text">
+					<div class="structure-text">Приходим, раздаем и получаем Волшебние пинки</div>
+					<div class="structure-text">Работаем в сплоченной одной целью команде</div>
+					<div class="structure-text">Приходим в восторг от секретных приемов самомотивации</div>
+					<div class="structure-text">Уходим.. заряженные, уверенные в себе и вдохновленные на новые победы</div>
+				</div>
+			</div>
+		</div>
+		<div id="b6" class="back-block6">
+			<div class="block6">
+				<div class="photo"></div>
+				<div class="trainer">
+					<img src="img/trainer.png" alt="">
+					<ul>
+						<li>Кандидат филологических наук</li>
+						<li>Политтехнолог</li>
+						<li>Журналист</li>
+						<li>Преподаватель филологии КНУ им. Тараса Шевченко</li>
+						<li>Сотрудник аппарата Верховного Совета Украины</li>
+						<li>Тренер по эффективной коммуникации</li>
+						<li>Автор курсов по Психологии Лидерства</li>
+						<li>Основатель университета лидерства <strong>WinslanD</strong></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="b7" class="back-block7">
+			<div class="block7">
+				<img src="img/reg.png" alt="reg">
+				<p>Укажите в анкете достоверные данные* и отправте на регистрацию.</p>
+				<p>После утверждения анкеты на Ваш Email придет письмо с реквизитами для оплаты.</p>
+				<form name="registration" action="submit.php" method="POST" class="form">
+					<input type="text" name="name" placeholder="Ваше ФИО">
+					<input type="email" name="email" placeholder="Ваш Email">
+					<input type="tel" name="number" placeholder="Ваш Телефон">
+					<input type="text" name="date" placeholder="Дата рождения">
+					<p style="font-size: 14px;">*Вся записанная Вами информация является конфиденциальной. Данные нужны для внутренней<br> статистики и разглашению не подлежат. Администрация имеет право отказать в обучении без объяснения причин.</p>
+					<button class="btn-2">записаться на семинар</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="foot-wrap-top">
+			<div class="footer">
+				<img src="img/logo_footer.png" alt="logo_footer">
+				<div class="soc-logo">
+					<img src="img/fb_logo.png" alt="fb">
+					<img src="img/vk.png" alt="vk">
+					<img src="img/yt_button.png" alt="yt">
+					<img src="img/insta.png" alt="instagram">
+				</div>
+				<div class="num">
+					<span class="sm">(044)</span><span class="lg">237 89 90</span>
+				</div>
+			</div>
+		</div>
+		<div class="foot-wrap-bottom">
+			<div class="footer">
+				<p class="copyright">2017.Все права защищены</p>
+			</div>
+		</div>
+	</footer>
+	<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
