@@ -1,7 +1,7 @@
 <? 
 // ----------------------------конфигурация-------------------------- // 
  
-$adminemail="admin@18camel.com";  // e-mail админа
+$adminemail="stoned.fender@gmail.com";  // e-mail админа
 
 $theme = "Волшебный пинок: регистрация";
  
